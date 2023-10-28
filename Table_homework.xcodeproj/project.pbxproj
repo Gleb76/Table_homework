@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777C6CD12AEC0FB200330AE5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C6CD02AEC0FB200330AE5 /* ListTableViewController.swift */; };
+		777C6CD42AEC338800330AE5 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C6CD22AEC338800330AE5 /* MyTableViewCell.swift */; };
+		777C6CD52AEC338800330AE5 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777C6CD32AEC338800330AE5 /* MyTableViewCell.xib */; };
+		777C6CD92AEC3F5600330AE5 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C6CD72AEC3F5600330AE5 /* EmailTableViewCell.swift */; };
+		777C6CDA2AEC3F5600330AE5 /* EmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777C6CD82AEC3F5600330AE5 /* EmailTableViewCell.xib */; };
 		77FD119D2AEBDA8D00F64690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD119C2AEBDA8D00F64690 /* AppDelegate.swift */; };
 		77FD119F2AEBDA8D00F64690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD119E2AEBDA8D00F64690 /* SceneDelegate.swift */; };
-		77FD11A12AEBDA8D00F64690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD11A02AEBDA8D00F64690 /* ViewController.swift */; };
 		77FD11A42AEBDA8D00F64690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FD11A22AEBDA8D00F64690 /* Main.storyboard */; };
 		77FD11A62AEBDA8E00F64690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FD11A52AEBDA8E00F64690 /* Assets.xcassets */; };
 		77FD11A92AEBDA8E00F64690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FD11A72AEBDA8E00F64690 /* LaunchScreen.storyboard */; };
+		77FD11B12AEBDC5700F64690 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD11B02AEBDC5700F64690 /* Person.swift */; };
+		77FD11B32AEBDCB600F64690 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD11B22AEBDCB600F64690 /* DataStore.swift */; };
+		77FD11B72AEBED1900F64690 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD11B62AEBED1900F64690 /* DetailViewController.swift */; };
+		77FD11B92AEBF25D00F64690 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD11B82AEBF25D00F64690 /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		777C6CD02AEC0FB200330AE5 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		777C6CD22AEC338800330AE5 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		777C6CD32AEC338800330AE5 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		777C6CD72AEC3F5600330AE5 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		777C6CD82AEC3F5600330AE5 /* EmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailTableViewCell.xib; sourceTree = "<group>"; };
 		77FD11992AEBDA8D00F64690 /* Table_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FD119C2AEBDA8D00F64690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FD119E2AEBDA8D00F64690 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77FD11A02AEBDA8D00F64690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77FD11A32AEBDA8D00F64690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77FD11A52AEBDA8E00F64690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FD11A82AEBDA8E00F64690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FD11AA2AEBDA8E00F64690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FD11B02AEBDC5700F64690 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		77FD11B22AEBDCB600F64690 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		77FD11B62AEBED1900F64690 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		77FD11B82AEBF25D00F64690 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +74,19 @@
 			children = (
 				77FD119C2AEBDA8D00F64690 /* AppDelegate.swift */,
 				77FD119E2AEBDA8D00F64690 /* SceneDelegate.swift */,
-				77FD11A02AEBDA8D00F64690 /* ViewController.swift */,
 				77FD11A22AEBDA8D00F64690 /* Main.storyboard */,
 				77FD11A52AEBDA8E00F64690 /* Assets.xcassets */,
 				77FD11A72AEBDA8E00F64690 /* LaunchScreen.storyboard */,
 				77FD11AA2AEBDA8E00F64690 /* Info.plist */,
+				77FD11B02AEBDC5700F64690 /* Person.swift */,
+				77FD11B22AEBDCB600F64690 /* DataStore.swift */,
+				77FD11B62AEBED1900F64690 /* DetailViewController.swift */,
+				77FD11B82AEBF25D00F64690 /* ContactsTableViewController.swift */,
+				777C6CD02AEC0FB200330AE5 /* ListTableViewController.swift */,
+				777C6CD22AEC338800330AE5 /* MyTableViewCell.swift */,
+				777C6CD32AEC338800330AE5 /* MyTableViewCell.xib */,
+				777C6CD72AEC3F5600330AE5 /* EmailTableViewCell.swift */,
+				777C6CD82AEC3F5600330AE5 /* EmailTableViewCell.xib */,
 			);
 			path = Table_homework;
 			sourceTree = "<group>";
@@ -126,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77FD11A92AEBDA8E00F64690 /* LaunchScreen.storyboard in Resources */,
+				777C6CDA2AEC3F5600330AE5 /* EmailTableViewCell.xib in Resources */,
+				777C6CD52AEC338800330AE5 /* MyTableViewCell.xib in Resources */,
 				77FD11A62AEBDA8E00F64690 /* Assets.xcassets in Resources */,
 				77FD11A42AEBDA8D00F64690 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FD11A12AEBDA8D00F64690 /* ViewController.swift in Sources */,
+				777C6CD92AEC3F5600330AE5 /* EmailTableViewCell.swift in Sources */,
 				77FD119D2AEBDA8D00F64690 /* AppDelegate.swift in Sources */,
+				777C6CD42AEC338800330AE5 /* MyTableViewCell.swift in Sources */,
+				77FD11B12AEBDC5700F64690 /* Person.swift in Sources */,
+				777C6CD12AEC0FB200330AE5 /* ListTableViewController.swift in Sources */,
+				77FD11B32AEBDCB600F64690 /* DataStore.swift in Sources */,
 				77FD119F2AEBDA8D00F64690 /* SceneDelegate.swift in Sources */,
+				77FD11B72AEBED1900F64690 /* DetailViewController.swift in Sources */,
+				77FD11B92AEBF25D00F64690 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Table-homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Table-homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
